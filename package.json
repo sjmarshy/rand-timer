@@ -1,0 +1,43 @@
+{
+  "name": "rand-timer",
+  "version": "1.0.0",
+  "description": "occasionally run a callback",
+  "main": "build/rand-timer.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "build:watch": "babel src -s -w -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjmarshy/tagtime.js.git"
+  },
+  "keywords": [
+    "tagtime",
+    "node"
+  ],
+  "author": "Sam Marshall <sjmarshy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjmarshy/tagtime.js/issues"
+  },
+  "homepage": "https://github.com/sjmarshy/tagtime.js",
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.6",
+    "hapi": "^6.2.1",
+    "jsnox": "^2.1.2",
+    "mersenne": "0.0.3",
+    "moment": "^2.7.0",
+    "npmlog": "^0.1.1",
+    "q": "^1.0.1",
+    "ramda": "^0.19.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "underscore": "^1.6.0",
+    "zero-env": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "gulp-coffee": "^2.1.1"
+  }
+}
